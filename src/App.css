@@ -1,0 +1,185 @@
+#root {
+  font-family: "Pixelify Sans", sans-serif;
+  color: rgb(201, 87, 87);
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Custom Navbar */
+.custom-navbar, .skills {
+  background-color: rgb(99, 173, 219);
+}
+
+.custom-navbar .nav-link {
+  font-size: 1.8rem;
+  color: rgb(201, 87, 87);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: -10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(99, 173, 219);
+  height: 10vh;
+}
+
+/* Home Section */
+.info {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(25, 27, 46);
+}
+
+.intro h1, .skills-title h1, .about h1, .projects-title h1 {
+  font-size: 4.0rem;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 50vh;
+}
+
+.skills-list ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  gap:20px;
+}
+
+.skills-list li {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: rgb(201, 87, 87);
+  color: white;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 27, 46);
+  height: 100vh;
+  gap: 20px;
+  overflow: auto;
+}
+
+.about-format{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 200px;
+}
+
+@media (max-width: 1000px) {
+  .about-format {
+    flex-direction: column;
+  }
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-info p {
+  max-width: 600px; 
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid rgb(201, 87, 87);
+}
+
+/* Matrix Canvas */
+.matrix-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Project Section */
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.projects-format {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects-values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(99, 173, 219, 0.281);
+  width: 350px;
+  height: 200px;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.dinner-logo {
+  width: 300px;
+  height: auto;
+  border: 3px solid rgb(201, 87, 87);
+  background-color: seashell;
+}
+
+.coin-logo {
+  width: 100px;
+  height: auto;
+}
+
+.project a {
+  font-size: 1.5rem;
+  color: rgb(201, 87, 87);
+}
