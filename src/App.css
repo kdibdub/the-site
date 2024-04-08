@@ -183,3 +183,43 @@
   font-size: 1.5rem;
   color: rgb(201, 87, 87);
 }
+
+
+/* Contact Section */
+.email-background {
+  background-color: rgb(25, 27, 46);
+  height: 100vh;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+.email label {
+  margin: 10px 0 5px 0;
+  font-weight: bold;
+}
+
+.email input[type="text"], .email input[type="email"], .email textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.email input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(201, 87, 87);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email input[type="submit"]:hover {
+  background-color: rgb(126, 54, 54);
+}

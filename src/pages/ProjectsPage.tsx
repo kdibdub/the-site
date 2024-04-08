@@ -21,9 +21,7 @@ const ProjectsPage = () => {
             </div>
             <div className="project">
               <img src="/better_coin.gif" className="coin-logo" alt="" />
-              <a href="https://github.com/cs428TAs/w2024/wiki/Dinner-Date">
-                This website!
-              </a>
+              <a href="https://github.com/kdibdub/the-site">This website!</a>
             </div>
           </div>
         </div>

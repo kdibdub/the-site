@@ -26,6 +26,9 @@ const NavBar = () => {
           <Nav.Link as={Link} to="/projects" className="nav-text">
             Projects
           </Nav.Link>
+          <Nav.Link as={Link} to="/contact" className="nav-text">
+            Contact
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
